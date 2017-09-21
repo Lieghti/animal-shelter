@@ -1,9 +1,15 @@
 .column {
   float: left;
   width: 25%;
-  border: solid;
 }
 .column h2 {
   font-size: 40px;
 
+}
+
+@media screen and (max-width: 800px){
+    body {
+      background-color: #ff0066;
+      color: #000099;
+    }
 }
